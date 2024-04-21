@@ -1,16 +1,24 @@
-import Features from "@/components/Features";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Introduction from "@/components/Introduction";
-import Image from "next/image";
+import Contact from "@/components/Contact";
+import React from "react";
+import SwiperContaier from "@/components/utils/Swiper";
+import Sections from "@/components/Sections";
+import Blog from "@/components/Blog";
+import Categories from "@/components/Categories";
+import HealthTips from "@/components/HealthTips";
+import Packages from "@/components/Packages";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Header/>
-      <Introduction />
-      <Features />
-      <Footer />
-    </main>
+      <main className="flex flex-col gap-[1rem]">
+          <Packages />
+          <HealthTips />
+          <Categories />
+          <SwiperContaier />
+          <Sections />
+          <Blog />
+          <Contact />
+          <Footer />
+      </main>
   );
 }
