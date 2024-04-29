@@ -1,6 +1,5 @@
 import BlogCard from "./utils/BlogCard";
 import chef_img from "@/assets/images/chef.jpg";
-import spanish_img from "@/assets/images/spanish-crabs.jpg";
 import eatery_img from "@/assets/images/eatery.jpg";
 
 const blogs = [
@@ -14,7 +13,7 @@ const blogs = [
     title:
       "Budget-Friendly Feasts: It features creative recipe hacks, affordable meal prep ideas",
     date: "Fri, March 20",
-    image: spanish_img,
+    image: eatery_img,
   },
   {
     title:

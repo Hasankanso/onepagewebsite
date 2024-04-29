@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.mid-text {
+  @apply text-center text-[#012970];
+}

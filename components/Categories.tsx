@@ -4,7 +4,6 @@ import { useState } from "react";
 import CategoriesCard from "./utils/CategoriesCard";
 import sorin_img from "@/assets/images/sorin.jpg";
 import nkwobi_img from "@/assets/images/naija-img.jpg";
-import scrabs_img from "@/assets/images/spanish-crabs.jpg";
 import coffee_img from "@/assets/images/coffee.jpg";
 import lily_img from "@/assets/images/lily-banse.jpg";
 
@@ -12,7 +11,7 @@ const list = [
   { name: "Paella de Marisco", category: "Dish", image: sorin_img },
   { name: "Nkwobi", category: "Dish", image: nkwobi_img },
   { name: "Coffee Patel", category: "Coffee", image: sorin_img },
-  { name: "Sorin", category: "Dish", image: scrabs_img },
+  { name: "Sorin", category: "Dish", image: coffee_img },
   { name: "Coffee", category: "Coffee", image: coffee_img },
   { name: "Pasta", category: "Dish", image: lily_img },
 ];
