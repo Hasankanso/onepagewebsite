@@ -8,19 +8,19 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "Users",
-      number: "390",
-      icon: "/assets/Icon/heroicons_sm-user.svg",
+      name: `Restaurants and Bars`,
+      number: "50",
+      icon: "/assets/Icon/gabel.png",
     },
     {
-      name: "Locations",
-      number: "20",
+      name: "Countries",
+      number: "4",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Server",
-      number: "50",
-      icon: "/assets/Icon/bx_bxs-server.svg",
+      name: "Tables",
+      number: "300",
+      icon: "/assets/Icon/restaurant.png",
     },
   ],
 }) => {
@@ -37,18 +37,18 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Want anything to be easy with <strong>LaslesVPN</strong>.
+              <strong>Easy Menu:</strong> Simplify Dining, Delight Diners.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-                Provide a network for all your needs with ease and fun using
-                LaslesVPN discover interesting features from us.
+              Effortlessly streamline ordering with Easy Menu’s digital solutions,<br/>
+              enhancing service speed and customer satisfaction.
               </p>
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/Illustration1.png"
+                  src="/assets/rest_illustration.png"
                   alt="VPN Illustrasi"
                   quality={100}
                   width={612}
